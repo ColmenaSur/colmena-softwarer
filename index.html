@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Colmena Software</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body{
+            margin:0;
+            font-family:"Segoe UI", Arial, sans-serif;
+            background:#0f172a;
+            color:#e5e7eb;
+        }
+
+        /* ===== HEADER ===== */
+        header{
+            background:linear-gradient(90deg,#facc15,#f59e0b);
+            color:#1f2937;
+            padding:60px 20px;
+            text-align:center;
+        }
+
+        .logo{
+            width:120px;
+            margin-bottom:15px;
+        }
+
+        header h1{
+            margin:0;
+            font-size:3rem;
+        }
+
+        header p{
+            font-size:1.2rem;
+            margin-top:10px;
+        }
+
+        /* ===== SECCIONES ===== */
+        section{
+            max-width:1200px;
+            margin:auto;
+            padding:50px 20px;
+        }
+
+        h2{
+            color:#facc15;
+            margin-bottom:20px;
+        }
+
+        h3{
+            color:#fde047;
+        }
+
+        /* ===== CARDS ===== */
+        .cards{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+            gap:25px;
+            margin-top:25px;
+        }
+
+        .card{
+            background:#1e293b;
+            padding:25px;
+            border-radius:12px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.4);
+            text-align:center;
+        }
+
+        /* ===== BOTÓN ===== */
+        .btn{
+            display:inline-block;
+            background:#facc15;
+            color:#1f2937;
+            padding:14px 28px;
+            border-radius:8px;
+            text-decoration:none;
+            font-weight:bold;
+            margin-top:20px;
+        }
+
+        .btn:hover{
+            background:#fde047;
+        }
+
+        /* ===== CONTACTO ===== */
+        .contact{
+            background:#020617;
+            border-radius:12px;
+            padding:40px 20px;
+            text-align:center;
+        }
+
+        .phone{
+            font-size:1.5rem;
+            color:#facc15;
+            font-weight:bold;
+        }
+
+        /* ===== FOOTER ===== */
+        footer{
+            background:#020617;
+            text-align:center;
+            padding:20px;
+            color:#9ca3af;
+            font-size:0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- ===== ENCABEZADO ===== -->
+<header>
+    <!-- LOGO ABEJITA -->
+    <img src="img/logo-abeja.png" alt="Colmena Software" class="logo">
+
+    <h1>Colmena Software</h1>
+    <p>Soluciones tecnológicas inteligentes y profesionales</p>
+</header>
+
+<!-- ===== QUIÉNES SOMOS ===== -->
+<section>
+    <h2>¿Quiénes somos?</h2>
+    <p>
+        Colmena Software desarrolla y comercializa software eficiente,
+        confiable y diseñado para necesidades reales de empresas
+        y profesionales.
+    </p>
+</section>
+
+<!-- ===== SOPORTES / PROGRAMAS ===== -->
+<section>
+    <h2>Soportes</h2>
+    <p>
+        Accede a nuestros programas con soporte técnico especializado.
+    </p>
+
+    <h3>Programas</h3>
+
+    <div class="cards">
+
+        <!-- PROGRAMA FICHAS MÉDICAS -->
+        <div class="card">
+            <h3>🩺 Fichas Médicas</h3>
+            <p>
+                Sistema profesional para consultorios médicos y clínicas.
+            </p>
+            <p><strong>Versión:</strong> 3303301</p>
+
+            <!-- BOTÓN A LA OTRA PÁGINA -->
+            <a href="fichas-medicas.html" class="btn">
+                Ver programa
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== SERVICIOS ===== -->
+<section>
+    <h2>Servicios</h2>
+    <ul>
+        <li>✔ Desarrollo de software personalizado</li>
+        <li>✔ Sistemas cliente-servidor</li>
+        <li>✔ Integración en red</li>
+        <li>✔ Soporte técnico</li>
+        <li>✔ Soluciones multiplataforma</li>
+    </ul>
+</section>
+
+<!-- ===== CONTACTO ===== -->
+<section>
+    <div class="contact">
+        <h2>Contacto</h2>
+        <p>Solicita información o una demostración</p>
+        <p class="phone">📞 0993523905</p>
+    </div>
+</section>
+
+<!-- ===== PIE ===== -->
+<footer>
+    © 2026 Colmena Software · Todos los derechos reservados
+</footer>
+
+</body>
+</html>
+
